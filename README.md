@@ -47,6 +47,12 @@ Download the data_j.js script and include it before the end of the body.  To inv
 </body>
 ```
 
+Also there's now a jsDelivr link: https://cdn.jsdelivr.net/gh/Joule-Tasks/data-j@refs/heads/main/data_j.js
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Joule-Tasks/data-j@refs/heads/main/data_j.js"></script>
+```
+
 Alternately, if you just want data-j to govern a subset of the page, you can pass a jQuery parent selector.  Data-j will only look at elements below the scope of the parent selector.
 
 ```html
