@@ -37,7 +37,9 @@ This is not going to work for everyone.  If you're all about React, Vue or whate
 Download the data_j.js script and include it before the end of the body.  To invoke for the document, call `data_j()`.
 
 ```html
+<body>
 	...
+	<script src="/path/to/jquery.js"></script>
 	<script src="/scripts/data_j.js"></script>
 	<script>
 		data_j();
@@ -55,8 +57,6 @@ Alternately, if you just want data-j to govern a subset of the page, you can pas
 ```
 
 ## Usage
-
-TK: data j binding on the page, parent selector
 
 ```html
 <a href="#" id="mybutton" class="j-btn" data-j="*/path/to/partial/|my-view">I'm an Ajax button!</a>
